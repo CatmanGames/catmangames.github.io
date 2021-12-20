@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .willk {
     background-color: #101010;
 }
+
+
 
 .background-image-pddark {
     background-image: url("pddark.png");
@@ -17,6 +24,7 @@
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position: top;
+    background-color: #101010;
 }
 
 .logo {
@@ -98,8 +106,8 @@ html, body {
 
 /* waves */
 .ocean {
-    height: 138px; /* change the height of the waves here */
-    width: 120%;
+    height: 130px; /* change the height of the waves here */
+    width: 190.4vh;
     position: relative;
     bottom: 0;
     left: 0;
@@ -107,8 +115,9 @@ html, body {
     overflow-x: hidden;
 }
 
+/*
 .wave {
-    background: url("wave.png");
+    background: url("../pictures/wave.png");
     position: absolute;
     width: 200%;
     height: 100%;
@@ -133,12 +142,11 @@ html, body {
     0% {transform: translateX(0);}
     50% {transform: translateX(-25%);}
     100% {transform: translateX(-50%);}
-}
-
-.nopadding {
-    padding: 0 !important;
-}
-
-.nomargin {
-    margin: 0 !important;
+}*/
+#aboutus{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    top: 25%;
 }
