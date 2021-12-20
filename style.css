@@ -25,11 +25,8 @@
     background-attachment:fixed;
     background-position: top;
     background-color: #101010;
-    max-height: 100%;
-    min-width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background-size: 100%;
+    background-size: 100% 658px;
+    min-height: 658px;
 }
 
 .logo {
