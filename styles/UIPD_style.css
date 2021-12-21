@@ -13,20 +13,20 @@
 
 
 .background-image-pddark {
-    background-image: url("pddark.png");
+    background-image: url("../pddark.png");
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position:center;
 }
 
 .background-image-banner {
-    background-image: url("pddark.png");
+    background-image: url("../pddark.png");
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position: top;
     background-color: #101010;
     background-size: 100% 100%;
-    min-height: 200vh;
+    max-height: 300vh;
 }
 
 .logo {
