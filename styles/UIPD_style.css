@@ -100,7 +100,24 @@
 #aboutus {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    color: white;
     text-align: center;
     top: 25%;
+    animation: aboutusan 5000ms -3s linear;
+}
+
+.aboutusanimation {
+    align-self: center;
+    position: relative;
+    top: 50vh;
+    width: 60%;
+    overflow-y: hidden;
+    animation: aboutusan 5000ms -3s linear;
+}
+
+@keyframes aboutusan {
+    0% {width: 0%; color: #101010}
+    50%{width: 30%; color: #101010}
+    80%{width: 60%; color: #101010}
+    90%{color: #101010}
+    100%{color: white}
 }
