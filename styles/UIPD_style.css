@@ -121,3 +121,18 @@
     90%{color: #101010}
     100%{color: white}
 }
+
+.navbaranimation {
+    animation: navbaran 7s -3s linear;
+    background-color: #101010;
+    position: absolute;
+    left: 30%;
+    border-radius: 0px 0px 40px 40px;
+}
+
+@keyframes navbaran {
+    20%{top: -15vh; left: 30%}
+    80%{top: 0vh; left: 30%; border-radius: 0px 0px 0px 0px}
+    100%{position: absolute; left: 30%; border-radius: 0px 0px 40px 40px}
+
+}
