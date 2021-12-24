@@ -2,18 +2,8 @@
 
 body {
     padding: 40px;
-    background-color: #121212;
+    background-color: #101010;
     color: green;
-}
-
-.link{
-    color: darkseagreen;
-
-}
-
-.link:hover{
-    color: darkseagreen;
-    font-weight: bolder;
 }
 
 p{
