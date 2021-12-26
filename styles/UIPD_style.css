@@ -89,7 +89,7 @@
 
 }
 
-#infos {
+.infos {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     text-align: center;
@@ -100,9 +100,8 @@
     color: #101010;
 }
 
-#infos:hover {
+.infos:hover {
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
     text-align: center;
     top: 50%;
     width: 500px;
