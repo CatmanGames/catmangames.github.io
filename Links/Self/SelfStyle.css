@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-color: #101010;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 30px;
+    width: 100vh;
+    height: 100%;
+}
+
+.headline {
+    font-size: 40px;
+    text-decoration-line: none;
+}
+
+.button {
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.left {
+    width: 100vh;
+    position: absolute;
+    left: 0;
+    height: 50px;
+}
+
+.right {
+    width: 100vh;
+    height: 100vh;
+    left: 100vh;
+    position: absolute;
+    top: 0
+}
