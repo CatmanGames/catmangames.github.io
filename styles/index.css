@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #212224;
+    font-family: Poppins;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-container {
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: #101113;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    box-shadow: 0px 0px 98px 22px rgba(0,0,0,0.1);
+    z-index: 2;
+}
+
+.nav-right {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    margin-right: 4em;
+}
+
+.nav-logo {
+    position: absolute;
+    left: 3em;
+}
+
+.nav-logo-img {
+    width: 60px;
+    height: auto;
+}
+
+.links-container {
+    display: flex;
+}
+
+.links-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flexchild {
+    flex: 1;
+    text-align: center;
+    min-width: 250px;
+}
+
+.flexchild:first-child {
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.personensucheh1 {
+    margin-top: 2em;
+}
+
+.personensuche-container {
+    width: 80%;
+}
+
+.hidden {
+    display: none;
+}
+
+.notransform {
+    transform: 0;
+}
+
+.slideleft {
+    animation: slideleft 1s forwards;
+}
+
+.slideright {
+    animation: slideright 1s forwards;
+}
+
+.slideup {
+    animation: slideup 1s forwards;
+}
+
+.search-wrapper > label {
+    font-size: larger;
+}
+
+@keyframes slideleft {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-130px);
+    }
+}
+
+@keyframes slideright {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(130px);
+    }
+}
+
+@keyframes slideup {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-300px);
+    }
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+input {
+    font-size: 1rem;
+}
+
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+}
+
+.card {
+    border: 1px solid yellow;
+    background-color: #212224;
+    padding: .5rem;
+}
+
+.card > .header {
+    margin-bottom: .25rem;
+}
+
+.card > .body {
+    font-size: .8rem;
+    color: #777;
+}
+
+.hide {
+    display: none;
+}
+
+.personensucheatag:hover {
+    color: white;
+    cursor: pointer;
+}
